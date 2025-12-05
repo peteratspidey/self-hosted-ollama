@@ -30,4 +30,35 @@ sudo systemctl restart ollama
 ollama --version
 ```
 > it will give u a warning about the gpu acceleration (means if u have gpu card then it would be better for the ollama )
-##
+## select the best model to pull for ur ollama 
+* go to this link [link](https://ollama.com/search) and select the model as per ur requirements and the system specification
+* `llama3:8db` - for general research/writing/reasoning)
+* `qwen2.5-coder:3b` - for coding and pipelines
+```bash
+ollama pull llama3:8b
+```bash
+ollama pull qwen2.5-coder:3b
+```
+## now run only one at a time 
+```bash
+ollama run llama3:8b
+```
+or
+```bash run qwen2.5-coder:3b
+```
+
+##  to quick run make alias for the commmands
+### open the bashrc file
+```bash
+gedit ~/.bashrc
+```
+
+## add this line in the end of the file
+```bash
+alias bio_assist='ollama run llama3:8b
+alias code_assist='ollama run qwen2.5-coder:3b
+```
+## reload config file (bashrc)
+```bash
+source ~/.bashrc
+```
