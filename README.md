@@ -86,3 +86,8 @@ sudo systemctl stop ollama
 ```bash
 sudo systemctl start ollama
 ```
+## to exit the chat session
+```bash
+/bye
+```
+or `ctrl + D`
