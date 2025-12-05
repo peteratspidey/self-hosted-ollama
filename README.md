@@ -62,3 +62,11 @@ alias code_assist='ollama run qwen2.5-coder:3b
 ```bash
 source ~/.bashrc
 ```
+# run the models (one at a time)
+```bash
+bio_assist
+```
+or 
+```bash
+code_assist
+```
