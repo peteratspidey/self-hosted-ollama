@@ -36,6 +36,7 @@ ollama --version
 * `qwen2.5-coder:3b` - for coding and pipelines
 ```bash
 ollama pull llama3:8b
+```
 ```bash
 ollama pull qwen2.5-coder:3b
 ```
