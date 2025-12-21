@@ -44,7 +44,8 @@ ollama pull qwen2.5-coder:3b
 ollama run llama3:8b
 ```
 or
-```bash run qwen2.5-coder:3b
+```bash
+run qwen2.5-coder:3b
 ```
 
 ##  to quick run make alias for the commmands
